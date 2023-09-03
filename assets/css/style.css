@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: cadetblue;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: darkslategrey;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    position: sticky;
+    top: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+section img {
+    height: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightseagreen;
+    color: crimson;
+    padding: 10px;
+}
+
+/* About Us start*/
+#t {
+    display: flex;
+}
+
+.a img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.b img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.c img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+#t img {
+    height: 400px;
+    width: 100%;
+}
+
+.a,
+.b,
+.c {
+    padding: 10px;
+}
+
+/* About Us End*/
+
+p {
+    font-size: large;
+    font-family: cursive;
+}
+
+/* Services Section Start */
+
+.k {}
+
+.pimg {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.p {
+    display: flex;
+}
+
+.pimg {
+    flex: 50%;
+}
+
+.p div {
+    flex: 50%;
+}
+
+.k p {
+    padding: 10px;
+}
+
+.p p {
+    padding: 10px;
+}
+
+/* Services Section End */
+
+/* Gallery Section Start */
+
+#x {
+    display: flex;
+}
+
+.d img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.e img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.f img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+#x img {
+    height: 400px;
+    width: 100%;
+}
+
+.d,
+.e,
+.f {
+    padding: 5px;
+    margin: 10px;
+}
+
+#y {
+    display: flex;
+}
+
+.g img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.h img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.i img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+#y img {
+    height: 400px;
+    width: 100%;
+}
+
+.g,
+.h,
+.i {
+    padding: 5px;
+    margin: 10px;
+}
+
+#z {
+    display: flex;
+}
+
+.m img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.n img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+.o img {
+    flex: 10;
+    border-radius: 10px;
+}
+
+#z img {
+    height: 400px;
+    width: 100%;
+}
+
+.m,
+.n,
+.o {
+    padding: 5px;
+    margin: 10px;
+}
+
+
+/* Gallery Section End */
+
+/* ContactUs Section Start */
+
+#gm {
+    display: flex;
+}
+
+.map {
+    flex: 50%;
+}
+
+.reg {
+    flex: 50%;
+    background-color: cadetblue;
+}
+
+.reg h2{
+    color: darkmagenta;
+    font-size: xx-large;
+}
+
+table,td,th{
+    margin: auto;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/* ContactUs Section End */
+
+/* Footer Section Start */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+}
+
+span {
+    color: coral;
+    text-decoration: underline;
+}
+
+/* Footer Section End */
+
+@media (max-width:800px) {
+    #heading, #aboutus, #services, #gallery, #contactus, #footer ,#t, #x, #y, #z, #gm ,.k, .p{
+        flex-direction: column;
+    }
+    ul li{
+        display: block;
+    }
+}
+
